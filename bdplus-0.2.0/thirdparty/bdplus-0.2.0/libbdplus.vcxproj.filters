@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{534b2be6-d7f6-4a4f-bd2c-cbac3a9be809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{130f844f-6740-4882-945d-ed9f9ee8b606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\file">
+      <UniqueIdentifier>{b8284b0b-2ed4-4d4b-9944-9da7a792a80a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\libbdplus">
+      <UniqueIdentifier>{7af7e7b7-6303-4c4b-b628-83b9bbb0de37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\util">
+      <UniqueIdentifier>{c92b8931-eac1-45ce-b677-5218c08b253e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\libbdplus\bdsvm">
+      <UniqueIdentifier>{a0e55efa-0ddd-49c3-bd9b-b6d159937ff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\file">
+      <UniqueIdentifier>{9006d17a-c817-4975-a737-afb41267bce4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\libbdplus">
+      <UniqueIdentifier>{e65c7ce4-8d8d-424a-aff4-57f609a5445f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util">
+      <UniqueIdentifier>{96108fe0-588d-4da2-a2b0-886d442615f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\libbdplus\bdsvm">
+      <UniqueIdentifier>{f3c950ff-104b-407e-be8a-292804e9d8e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\file\configfile.h">
+      <Filter>include\file</Filter>
+    </ClInclude>
+    <ClInclude Include="include\file\dirs.h">
+      <Filter>include\file</Filter>
+    </ClInclude>
+    <ClInclude Include="include\file\file.h">
+      <Filter>include\file</Filter>
+    </ClInclude>
+    <ClInclude Include="include\file\filesystem.h">
+      <Filter>include\file</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libbdplus\bdsvm\diff.h">
+      <Filter>include\libbdplus\bdsvm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libbdplus\bdsvm\dlx.h">
+      <Filter>include\libbdplus\bdsvm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libbdplus\bdsvm\dlx_internal.h">
+      <Filter>include\libbdplus\bdsvm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libbdplus\bdsvm\event.h">
+      <Filter>include\libbdplus\bdsvm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libbdplus\bdsvm\interface.h">
+      <Filter>include\libbdplus\bdsvm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libbdplus\bdsvm\loader.h">
+      <Filter>include\libbdplus\bdsvm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libbdplus\bdsvm\segment.h">
+      <Filter>include\libbdplus\bdsvm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libbdplus\bdsvm\sha1.h">
+      <Filter>include\libbdplus\bdsvm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libbdplus\bdsvm\slot.h">
+      <Filter>include\libbdplus\bdsvm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libbdplus\bdsvm\slot_data.h">
+      <Filter>include\libbdplus\bdsvm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libbdplus\bdsvm\trap.h">
+      <Filter>include\libbdplus\bdsvm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libbdplus\bdsvm\trap_helper.h">
+      <Filter>include\libbdplus\bdsvm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libbdplus\bdplus.h">
+      <Filter>include\libbdplus</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libbdplus\bdplus_config.h">
+      <Filter>include\libbdplus</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libbdplus\bdplus_data.h">
+      <Filter>include\libbdplus</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libbdplus\internal.h">
+      <Filter>include\libbdplus</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util\attributes.h">
+      <Filter>include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util\logging.h">
+      <Filter>include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util\macro.h">
+      <Filter>include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util\mutex.h">
+      <Filter>include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util\strutl.h">
+      <Filter>include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libbdplus\bdplus-version.h">
+      <Filter>include\libbdplus</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\file\configfile.c">
+      <Filter>src\file</Filter>
+    </ClCompile>
+    <ClCompile Include="src\file\dir_win32.c">
+      <Filter>src\file</Filter>
+    </ClCompile>
+    <ClCompile Include="src\file\dirs_win32.c">
+      <Filter>src\file</Filter>
+    </ClCompile>
+    <ClCompile Include="src\file\file.c">
+      <Filter>src\file</Filter>
+    </ClCompile>
+    <ClCompile Include="src\file\file_win32.c">
+      <Filter>src\file</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\logging.c">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\mutex.c">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\strutl.c">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libbdplus\bdplus.c">
+      <Filter>src\libbdplus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libbdplus\bdplus_config.c">
+      <Filter>src\libbdplus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libbdplus\internal.c">
+      <Filter>src\libbdplus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libbdplus\bdsvm\diff.c">
+      <Filter>src\libbdplus\bdsvm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libbdplus\bdsvm\dlx.c">
+      <Filter>src\libbdplus\bdsvm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libbdplus\bdsvm\event.c">
+      <Filter>src\libbdplus\bdsvm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libbdplus\bdsvm\interface.c">
+      <Filter>src\libbdplus\bdsvm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libbdplus\bdsvm\loader.c">
+      <Filter>src\libbdplus\bdsvm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libbdplus\bdsvm\segment.c">
+      <Filter>src\libbdplus\bdsvm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libbdplus\bdsvm\sha1.c">
+      <Filter>src\libbdplus\bdsvm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libbdplus\bdsvm\slot.c">
+      <Filter>src\libbdplus\bdsvm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libbdplus\bdsvm\trap.c">
+      <Filter>src\libbdplus\bdsvm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libbdplus\bdsvm\trap_helper.c">
+      <Filter>src\libbdplus\bdsvm</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
